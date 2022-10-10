@@ -2,9 +2,10 @@
   "name": "rolluped-deps",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "module": "dist/rolluped-deps.mjs",
+  "unpkg": "dist/rolluped-deps.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/idmytro/RollupedDeps/issues"
   },
-  "homepage": "https://github.com/idmytro/RollupedDeps#readme"
+  "homepage": "https://github.com/idmytro/RollupedDeps#readme",
+  "devDependencies": {
+    "vite": "^3.1.7"
+  },
+  "dependencies": {
+    "vue-slider-component": "^3.2.20"
+  }
 }
