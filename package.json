@@ -1,23 +1,15 @@
 {
-  "name": "rolluped-deps",
+  "name": "frontend-vendor-libs",
   "version": "1.0.0",
-  "description": "",
-  "module": "dist/rolluped-deps.mjs",
-  "unpkg": "dist/rolluped-deps.umd.js",
+  "module": "dist/frontend-vendor-libs.mjs",
+  "unpkg": "dist/frontend-vendor-libs.umd.js",
   "scripts": {
     "build": "vite build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idmytro/RollupedDeps.git"
+    "url": "git+https://github.com/RentPaymentOrganization/frontend-vendor-libs.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/idmytro/RollupedDeps/issues"
-  },
-  "homepage": "https://github.com/idmytro/RollupedDeps#readme",
   "devDependencies": {
     "vite": "^3.1.7"
   },
