@@ -17,6 +17,11 @@ core-js@^3.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.5.tgz#e86f651a2ca8a0237a5f064c2fe56cef89646e27"
   integrity sha512-nbm6eZSjm+ZuBQxCUPQKQCoUEfFOXjUZ8dTTyikyKaWrTYmAVbykQfwsKE5dBK88u3QCkCrzsx/PPlKfhsvgpw==
 
+deepmerge@^2.0.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==
+
 esbuild-android-64@0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.10.tgz#8a59a84acbf2eca96996cadc35642cf055c494f0"
@@ -192,6 +197,13 @@ postcss@^8.4.16:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+quill-blot-formatter-new@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/quill-blot-formatter-new/-/quill-blot-formatter-new-1.1.0.tgz#c91e18b2f56cd3b552d34b22d03bf28be15ce5dc"
+  integrity sha512-HxinXkaDjJTh0fKkhNuc96RfJCIOdccTGDaVL073vQ0ZzzO8TE95Wm9Nf17yKWjg2TuOlFUGinVIZzv9sBMcaA==
+  dependencies:
+    deepmerge "^2.0.0"
 
 resolve@^1.22.1:
   version "1.22.1"

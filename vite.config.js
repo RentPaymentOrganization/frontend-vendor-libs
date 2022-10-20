@@ -10,10 +10,14 @@ export default defineConfig({
       fileName: 'frontend-vendor-libs',
     },
     rollupOptions: {
-      external: ['vue'],
+      external: [
+        'vue',
+        'quill',
+      ],
       output: {
         globals: {
           vue: 'Vue',
+          quill: 'quill'
         },
       },
     },
